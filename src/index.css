@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+	--primary-color-light: #a7bcff;
+	--primary-color: #8da4f1;
+	--primary-color-dark: #7b96ec;
+	--secondary-color-light: #5d5b8d;
+	--secondary-color: #3e3c61;
+	--secondary-color-dark: #2f2d52;
+	--text-color: #ddddf7;
+}
+
+body {
+	min-height: 100vh;
+	min-width: 320px;
+	margin: 0;
+	padding: 0;
+	color: var(--text-color);
+	display: grid;
+	place-items: center;
+	box-sizing: border-box;
+	background-color: var(--primary-color-light);
+}
